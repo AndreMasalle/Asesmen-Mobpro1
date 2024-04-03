@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kuiz</string>
+    <string name="course1">Mathematics</string>
+    <string name="deskripsi1">Do you feel confident in your math skills? Let\'s prove it!</string>
+    <string name="course2">Algorithm Implementation</string>
+    <string name="deskripsi2">Sharpen your coding skills!</string>
+<!--    <string name="deskripsi2">Sharpen your coding skills!</string>-->
+    <string name="kerjakan">Start</string>
+    <string name="segera_hadir">Coming soon</string>
+<!--    <string name="soal2">A triangle is placed inside a square, which is placed inside a regular octagon.\nDetermine the area of the triangle.</string>-->
+    <string name="x_diklik">%1$s was clicked!</string>
+    <string name="selesai">Done</string>
+    <string name="hasil">Your poin: %1$d</string>
+    <string name="tentang_aplikasi">About Application</string>
+    <string name="copyright">This application is intended to train someone\'s skills in a subject/course.\n\nThis application is created for Assessment 1 MobPro 1.\n\nCopyright © 2024 Andre Masalle\nAll Rights Reserved</string>
+    <string name="kembali">Back</string>
+    <string name="bagikan">Share</string>
+    <string name="bagikan_template">Your poin: %1$s</string>
+    <string name="s1o1">17</string>
+    <string name="s1o2">13</string>
+    <string name="s1o3">13.5</string>
+    <string name="s1o4">14</string>
+    <string name="s2o1">100</string>
+    <string name="s2o2">200</string>
+    <string name="s2o3">200+100√2</string>
+    <string name="s2o4">100+50√2</string>
+    <string name="soal1">Adit\'s parents own a large chocolate factory. \nOne day, he decided to distribute 1683 chocolates to his 99 friends. \n\nHow many chocolates did each of his friends receive?</string>
+    <string name="pertanyaan1">Adit\'s parents own a large chocolate factory.\n One day, he decided to distribute 1683 chocolates to his 99 friends. \n\nHow many chocolates did each of his friends receive?</string>
+    <string name="pertanyaan2">A triangle is placed inside a square, which is placed inside a regular octagon.  \n\nDetermine the area of the triangle.</string>
+</resources>

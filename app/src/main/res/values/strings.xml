@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Kuiz</string>
+
+
+    <string name="course1">Matematika</string>
+    <string name="deskripsi1">Apakah anda merasa sudah jago dalam pelajaran matematika? Ayo buktikan!</string>
+
+    <string name="course2">Implementasi Algoritma</string>
+    <string name="deskripsi2">Asah kemampuan coding anda!</string>
+
+    <string name="kerjakan">Mulai</string>
+    <string name="segera_hadir">Segera hadir</string>
+
+    <string name="pertanyaan1">"Orang tua adit memiliki pabrik coklat yang besar,\nsuatu hari dia memutuskan untuk membagikan 1683 coklat ke 99 temannya.
+       \n Berapakah jumlah coklat yang diperoleh masing-masing temannya?  "</string>
+    <string name="pertanyaan2">Sebuah segitiga ditempatkan di dalam persegi yang ditempatkan di dalam segi-8 beraturan.
+        \nTentukanlah luas segitiga tersebut</string>
+
+
+
+
+<!--    s1o1 soal 1 opsi 1 begitu juga seterusnya -->
+    <string name="s1o1">17</string>
+    <string name="s1o2">13</string>
+    <string name="s1o3">13.5</string>
+    <string name="s1o4">14</string>
+
+    <string name="s2o1">100</string>
+    <string name="s2o2">200</string>
+    <string name="s2o3">200+100√2</string>
+    <string name="s2o4">100+50√2</string>
+
+    <string name="x_diklik">%1$s diklik!</string>
+    <string name="selesai">Selesai</string>
+
+    <string name="hasil">Poin anda: %1$d</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi ini ditujukan untuk melatih kemampuan seseorang dalam suatu pelajaran/mata kuliah
+        \n\nAplikasi ini dibuat untuk Asesmen1 MobPro 1. \n\n Copyright© 2024 Andre Masalle\nAll Rights Reserved</string>
+    <string name="kembali">Kembali</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Poin Anda: %1$s</string>
+    <string name="soal1">Orang tua adit memiliki pabrik coklat yang besar,         suatu hari dia memutuskan untuk membagikan 1683 coklat ke 99 temannya.         \\n Berapakah jumlah coklat yang diperoleh masing-masing temannya?</string>
+
+
+</resources>
