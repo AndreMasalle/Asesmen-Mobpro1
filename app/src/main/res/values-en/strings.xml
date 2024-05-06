@@ -28,4 +28,5 @@
     <string name="soal1">Adit\'s parents own a large chocolate factory. \nOne day, he decided to distribute 1683 chocolates to his 99 friends. \n\nHow many chocolates did each of his friends receive?</string>
     <string name="pertanyaan1">Adit\'s parents own a large chocolate factory.\n One day, he decided to distribute 1683 chocolates to his 99 friends. \n\nHow many chocolates did each of his friends receive?</string>
     <string name="pertanyaan2">A triangle is placed inside a square, which is placed inside a regular octagon.  \n\nDetermine the area of the triangle.</string>
+    <string name="liat_skor">See score</string>
 </resources>

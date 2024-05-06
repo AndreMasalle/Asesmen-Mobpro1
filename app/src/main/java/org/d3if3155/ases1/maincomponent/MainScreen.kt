@@ -15,6 +15,7 @@ import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -62,6 +63,19 @@ fun MainScreen(navController: NavHostController) {
                     }
                 }
             )
+        },
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = {
+
+                }
+            ) {
+                Icon(
+                    painter = painterResource(R.drawable.baseline_scoreboard_24),
+                    contentDescription = stringResource(id = R.string.liat_skor),
+                    tint = MaterialTheme.colorScheme.primary
+                )
+            }
         }
     ) {padding ->
         ScreenContent(Modifier.padding(padding), navController)
