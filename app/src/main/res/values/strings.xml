@@ -19,7 +19,7 @@
 
 
 
-<!--    s1o1 soal 1 opsi 1 begitu juga seterusnya -->
+<!--    s1o1 representasikan soal 1 opsi 1 begitu juga seterusnya -->
     <string name="s1o1">17</string>
     <string name="s1o2">13</string>
     <string name="s1o3">13.5</string>
@@ -45,5 +45,7 @@
     <string name="soal1">Orang tua adit memiliki pabrik coklat yang besar,         suatu hari dia memutuskan untuk membagikan 1683 coklat ke 99 temannya.         \\n Berapakah jumlah coklat yang diperoleh masing-masing temannya?</string>
 
     <string name="liat_skor">Liat skor</string>
+    <string name="skor">Skor anda</string>
+    <string name="list_kosong">Anda belum menyelesaikan quiz anda</string>
 
 </resources>

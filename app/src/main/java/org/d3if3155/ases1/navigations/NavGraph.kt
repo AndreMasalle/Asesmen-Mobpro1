@@ -6,8 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import org.d3if3155.ases1.AboutScreen
-import org.d3if3155.ases1.maincomponent.MainScreen
-import org.d3if3155.ases1.quiz.QuizScreen
+import org.d3if3155.ases1.screen.MainScreen
+import org.d3if3155.ases1.screen.QuizScreen
 
 
 
@@ -24,6 +24,9 @@ fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
             AboutScreen(navController)
         }
         composable("quizScreen"){
+            QuizScreen(navController = navController)
+        }
+        composable("scoreScreen"){
             QuizScreen(navController = navController)
         }
 

@@ -1,4 +1,4 @@
-package org.d3if3155.ases1.maincomponent
+package org.d3if3155.ases1.screen
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -67,7 +67,7 @@ fun MainScreen(navController: NavHostController) {
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-
+                    navController.navigate(Screen.Score.route)
                 }
             ) {
                 Icon(
@@ -87,7 +87,6 @@ fun CourseContent( navController: NavHostController, onClick: () -> Unit ) {
         Card(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable { navController.navigate("quizScreen") }
                 .padding(16.dp)
         ) {
         Column(

@@ -1,4 +1,4 @@
-package org.d3if3155.ases1.quiz
+package org.d3if3155.ases1.screen
 
 import android.content.Context
 import android.content.Intent
@@ -66,23 +66,12 @@ fun QuizScreen(navController: NavHostController) {
 
                 },
                 title = {
-                    Text(text = stringResource(id = R.string.app_name))
+                    Text(text = stringResource(id = R.string.course1))
                 },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.primary
-                ),
-//                actions = {
-//                    IconButton(onClick = {
-//                        navController.navigate(Screen.About.route)
-//                    }) {
-//                        Icon(
-//                            imageVector = Icons.Outlined.Info,
-//                            contentDescription = stringResource(id = R.string.tentang_aplikasi),
-//                            tint = MaterialTheme.colorScheme.primary
-//                        )
-//                    }
-//                }
+                )
             )
         }
     ) {padding ->
@@ -324,7 +313,7 @@ fun RadioButtonComponent2(pilihan2: (String) -> Unit) {
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun QuizPreview() {
     Ases1Theme {
         QuizScreen(rememberNavController())
     }
