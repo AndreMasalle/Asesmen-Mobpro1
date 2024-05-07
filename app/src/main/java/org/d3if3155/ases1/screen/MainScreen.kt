@@ -166,7 +166,9 @@ fun ScreenContent(modifier: Modifier, navController: NavHostController) {
         contentPadding = PaddingValues(bottom = 84.dp),
     ) {
         item{
-            CourseContent(navController) {}
+            CourseContent(navController) {
+
+            }
         }
     }
 }
