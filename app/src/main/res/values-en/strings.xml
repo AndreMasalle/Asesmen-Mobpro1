@@ -31,4 +31,8 @@
     <string name="liat_skor">See score</string>
     <string name="skor">Your score</string>
     <string name="list_kosong">You had not done any quiz</string>
+    <string name="tambah_catatan">Add note</string>
+    <string name="edit_catatan">Edit</string>
+    <string name="simpan">Save</string>
+    <string name="isi_catatan">Fill note</string>
 </resources>

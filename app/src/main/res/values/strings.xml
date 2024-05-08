@@ -47,5 +47,10 @@
     <string name="liat_skor">Liat skor</string>
     <string name="skor">Skor anda</string>
     <string name="list_kosong">Anda belum menyelesaikan quiz anda</string>
+    <string name="tambah_catatan">Tambah catatan</string>
+    <string name="edit_catatan">Edit catatan</string>
+    <string name="isi_catatan">Isi catatan</string>
+    <string name="simpan">Simpan</string>
+
 
 </resources>

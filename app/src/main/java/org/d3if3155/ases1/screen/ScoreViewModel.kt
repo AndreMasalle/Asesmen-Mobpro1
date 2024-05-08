@@ -13,7 +13,8 @@ class ScoreViewModel : ViewModel() {
                 Score(
                     i.toLong(),
                     "Matematika",
-                    "Skor anda adalah $i",
+                    "Skor anda: $i",
+                    "Saya masih membutuhkan banyak latihan",
                     "2024-05-$i 12:11:50"
                 )
             )

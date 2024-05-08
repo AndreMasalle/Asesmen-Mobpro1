@@ -83,7 +83,8 @@ fun ListScore(score: Score, onClick: () -> Unit) {
             overflow = TextOverflow.Ellipsis,
             fontWeight = FontWeight.Bold
         )
-        Text(text = score.score, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Text(text = score.score, maxLines = 2, overflow = TextOverflow.Ellipsis, fontWeight = FontWeight.Bold)
+        Text(text = score.catatan, maxLines = 4, overflow = TextOverflow.Ellipsis)
         Text(text = score.tanggal)
     }
 }
